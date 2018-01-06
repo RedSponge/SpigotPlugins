@@ -1,0 +1,7 @@
+realism:
+  blockbreak:
+    barehand:
+      sharpblocks:
+        blocklist:
+          - GLASS
+        damage: 1.0
