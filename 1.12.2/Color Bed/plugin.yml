@@ -1,0 +1,7 @@
+name: BedColor
+version: 1.0.2
+main: com.redsponge.random.bedcolor.BedColor
+
+commands:
+  bedcolor:
+    description: Shows all possible commands for the plugin BedColor

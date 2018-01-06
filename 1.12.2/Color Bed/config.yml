@@ -1,0 +1,25 @@
+#Config File for BedColor Plugin
+#Version 1.0.1
+#Color Char: $
+
+bedcolors:
+  mechanics:
+    colorBed:
+      enable: true
+      colorFullBed: true
+      colorMethod:
+        method: both
+      loseDye:
+        creative: false
+        survival: true
+    setSpawn:
+      enable: true
+  messages:
+    onColor:
+      showMessageOnColor: true
+      onColorMessage: $eYou've colored a bed at $b%xpos %ypos %zpos$e to %color$e, %p
+    onBedPlace:
+      showMessageOnBedPlace: false
+      onBedPlaceMessage: $eYou've placed a %color$e bed at $b%xpos %ypos %zpos$e, color it by right clicking it a with dye
+    onSetSpawn:
+      setSpawnMessage: $eYou've set your spawn to $b%xpos %ypos %zpos$e, %p
